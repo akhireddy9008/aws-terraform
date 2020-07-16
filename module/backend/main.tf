@@ -39,4 +39,4 @@ resource "aws_dynamodb_table" "dynamodb_terraform_state_lock" {
     Environment = "all"
     Description = "DynamoDB Table for Locking Terraform State"
   }
-}
+
